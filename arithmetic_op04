@@ -1,0 +1,5 @@
+number = int(input('uch xonali son: '))
+x = (number // 100)
+y = (number // 10-x*10)
+z = (number // 1-x*100-y*10)
+print(x+y+z)
